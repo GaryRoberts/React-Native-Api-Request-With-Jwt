@@ -2,7 +2,10 @@ import axios from 'axios';
 
 // Create axios client, pre-configured with baseURL
 let APIKit = axios.create({
-  baseURL: ' http://127.0.0.1:8000',
+   baseURL: 'http://10.0.2.2:8000',
+  //android emulator->  baseURL: 'http://10.0.2.2:8000',
+  //through ip address-> baseURL: 'http://192.168.0.108:8000',
+  //Your live url-> baseURL: 'https://www.example.com:8000',
   timeout: 10000,
 });
 
