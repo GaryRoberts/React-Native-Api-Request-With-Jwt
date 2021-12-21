@@ -1,1 +1,1 @@
-# React Native Api Request with Jwt
+# React Native Api Request with Jwt(login endpoint)
